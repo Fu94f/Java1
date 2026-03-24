@@ -1,3 +1,4 @@
+/*
 // EXERCISE 3
 
 let dogs=40;
@@ -28,3 +29,5 @@ console.log(cats);
 
 console.log(animals);
 console.log(animals - dogs);
+
+*/

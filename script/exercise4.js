@@ -1,5 +1,5 @@
 // EXERCISE 4 
-
+/*
 let price //declare variable price
 
 price = prompt("Insert price $"); // assign a value (will be assigned by the user)
@@ -63,11 +63,11 @@ console.log( `Your new price is $${newPrice}`);
 
 */
 
-/*
+
 
 //EXERCISE 4  if the user insert $
 
-
+/*
 let price = prompt("Insert price");
 
 console.log(parseFloat(price.slice(1))); 
@@ -78,7 +78,7 @@ let discount = price * 0.10 ;
 
 let newPrice = price - discount;
 
-//console.log(typeof newPrice);
+console.log(typeof newPrice);
 
 
 console.log( `Your new price is $${newPrice}`);

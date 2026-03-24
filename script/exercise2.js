@@ -1,3 +1,5 @@
+/*
+
 // EXERCISE 2
 
 
@@ -23,3 +25,5 @@ console.log(`my favourite colour is ${favouriteColour}`);
 
 
 console.log(`my name is ${firstName}, I am ${age} years old and my favourite colour is ${favouriteColour}`);
+
+*/
