@@ -1,23 +1,4 @@
 
-/*
-
-function isValid(password, username) {
-    if (password.lenght < 8) {
-        return false; 
-    } else if (password.includes("")){
-        return false;
-    } else if (password.includes("${username}")){
-        return false;
-    } else {
-      return true;
-    }
-   
-} 
-
-
-console.log(isValid("abcrfghjuy","gitto"));*/
-
-/*
 function isValidPassword(password, username) {
     if (password.length < 8) {
         return false; 
@@ -31,10 +12,20 @@ function isValidPassword(password, username) {
    
 } 
 
-console.log(isValid("gatto llini","gatto"));*/
+console.log(isValidPassword("gattollini","gatto"));
+console.log(isValidPassword("gatto llin","gatto"));
+console.log(isValidPassword("sadhjashdjasas","Josh1234"));
+console.log(isValidPassword("abracadra","Jane24"));
 
+
+
+
+
+
+/*
 username = prompt("insert username");
 password = prompt("insert password");
+
 
 
 if (password.length < 8) {
@@ -44,7 +35,7 @@ if (password.length < 8) {
     } else if (password.includes("${username}")){
         console.log("password not valid"); 
     } else {
-      console.log("password  valid"); 
+      console.log("password valid"); 
     }
 
-
+*/
